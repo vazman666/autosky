@@ -85,7 +85,7 @@ func Readsky() {
 			panic(err)
 
 		}
-		theCell, err = sh.Cell(i, 1) //remark
+		theCell, err = sh.Cell(i, 3) //remark
 		if err != nil {
 			continue
 			panic(err)
